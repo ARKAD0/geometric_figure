@@ -14,7 +14,7 @@ function perimetroCuadrado(lado)
 function areaCuadrado(lado) 
 {
     return lado * lado;
-} 
+}  
 
 // console.log ("el area de cuadrado mide: " + areaCuadrado + "cm^2");
 
@@ -80,7 +80,7 @@ function perimetroCirculo(diametro)
 // console.log ("El area del circulo mide: " + areaCirculo+ "cm^2")
 function areaCirculo(radio) 
 {
-    return (radio * 2 ) * PI;
+    return (radio * radio ) * PI;
 }
 
 console.groupEnd()
